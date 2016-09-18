@@ -10,4 +10,7 @@ import Foundation
 
 class Pizza {
     var size: Size?
+    var mass: Mass?
+    var cheese: Cheese?
+    var ingredients : [Ingredient] = []
 }

@@ -15,6 +15,12 @@
 		DF8572C11D8667F700B48B20 /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8572C01D8667F700B48B20 /* Size.swift */; };
 		DF8572C31D86688B00B48B20 /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8572C21D86688B00B48B20 /* Pizza.swift */; };
 		DF8572C51D86758D00B48B20 /* MassTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8572C41D86758D00B48B20 /* MassTableViewController.swift */; };
+		DFCF36E41D8D111A009590A3 /* Mass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCF36E31D8D111A009590A3 /* Mass.swift */; };
+		DFED95871D8DE157007D0BC2 /* Cheese.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFED95861D8DE157007D0BC2 /* Cheese.swift */; };
+		DFED95891D8DE186007D0BC2 /* CheeseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFED95881D8DE186007D0BC2 /* CheeseTableViewController.swift */; };
+		DFED958B1D8DE77B007D0BC2 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFED958A1D8DE77B007D0BC2 /* Ingredient.swift */; };
+		DFED958D1D8DE899007D0BC2 /* IngredientTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFED958C1D8DE899007D0BC2 /* IngredientTableViewController.swift */; };
+		DFED958F1D8E0FA5007D0BC2 /* ConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFED958E1D8E0FA5007D0BC2 /* ConfirmationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +34,12 @@
 		DF8572C01D8667F700B48B20 /* Size.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Size.swift; sourceTree = "<group>"; };
 		DF8572C21D86688B00B48B20 /* Pizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
 		DF8572C41D86758D00B48B20 /* MassTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MassTableViewController.swift; sourceTree = "<group>"; };
+		DFCF36E31D8D111A009590A3 /* Mass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mass.swift; sourceTree = "<group>"; };
+		DFED95861D8DE157007D0BC2 /* Cheese.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cheese.swift; sourceTree = "<group>"; };
+		DFED95881D8DE186007D0BC2 /* CheeseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheeseTableViewController.swift; sourceTree = "<group>"; };
+		DFED958A1D8DE77B007D0BC2 /* Ingredient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		DFED958C1D8DE899007D0BC2 /* IngredientTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientTableViewController.swift; sourceTree = "<group>"; };
+		DFED958E1D8E0FA5007D0BC2 /* ConfirmationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +80,9 @@
 				DF8572B71D8663B900B48B20 /* Info.plist */,
 				DF8572BD1D8663EE00B48B20 /* SizeTableViewController.swift */,
 				DF8572C41D86758D00B48B20 /* MassTableViewController.swift */,
+				DFED95881D8DE186007D0BC2 /* CheeseTableViewController.swift */,
+				DFED958C1D8DE899007D0BC2 /* IngredientTableViewController.swift */,
+				DFED958E1D8E0FA5007D0BC2 /* ConfirmationViewController.swift */,
 			);
 			path = Pizzas;
 			sourceTree = "<group>";
@@ -77,6 +92,9 @@
 			children = (
 				DF8572C01D8667F700B48B20 /* Size.swift */,
 				DF8572C21D86688B00B48B20 /* Pizza.swift */,
+				DFCF36E31D8D111A009590A3 /* Mass.swift */,
+				DFED95861D8DE157007D0BC2 /* Cheese.swift */,
+				DFED958A1D8DE77B007D0BC2 /* Ingredient.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -154,9 +172,15 @@
 			files = (
 				DF8572C31D86688B00B48B20 /* Pizza.swift in Sources */,
 				DF8572BE1D8663EE00B48B20 /* SizeTableViewController.swift in Sources */,
+				DFED958B1D8DE77B007D0BC2 /* Ingredient.swift in Sources */,
+				DFED95891D8DE186007D0BC2 /* CheeseTableViewController.swift in Sources */,
+				DFED958F1D8E0FA5007D0BC2 /* ConfirmationViewController.swift in Sources */,
 				DF8572C51D86758D00B48B20 /* MassTableViewController.swift in Sources */,
+				DFED95871D8DE157007D0BC2 /* Cheese.swift in Sources */,
+				DFED958D1D8DE899007D0BC2 /* IngredientTableViewController.swift in Sources */,
 				DF8572C11D8667F700B48B20 /* Size.swift in Sources */,
 				DF8572AC1D8663B900B48B20 /* AppDelegate.swift in Sources */,
+				DFCF36E41D8D111A009590A3 /* Mass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +328,7 @@
 				DF8572BC1D8663B900B48B20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
