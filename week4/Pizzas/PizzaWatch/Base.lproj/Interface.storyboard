@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11077"/>
+    </dependencies>
+    <scenes>
+        <!--Tamaño-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller identifier="InterfaceController" title="Tamaño" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="PizzaWatch_Extension">
+                    <items>
+                        <table alignment="left" id="nQf-z6-l3d">
+                            <items>
+                                <tableRow identifier="SizeTableRowController" id="E9t-E0-HDm" customClass="SizeTableRowController" customModule="PizzaWatch_Extension">
+                                    <group key="rootItem" width="1" alignment="left" id="JgO-wk-u2e">
+                                        <items>
+                                            <label alignment="left" verticalAlignment="center" text="Label" id="lzp-ax-rAa"/>
+                                            <imageView alignment="right" verticalAlignment="center" image="tick_mark" id="XOI-Pu-vNT"/>
+                                        </items>
+                                        <connections>
+                                            <segue destination="ft3-r0-IM7" kind="push" id="345-Iy-7TO"/>
+                                        </connections>
+                                    </group>
+                                    <connections>
+                                        <outlet property="imageMark" destination="XOI-Pu-vNT" id="Pcj-as-EHa"/>
+                                        <outlet property="label" destination="lzp-ax-rAa" id="2Ds-AM-0aT"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="sizeTable" destination="nQf-z6-l3d" id="REf-ew-XgU"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="70" y="111"/>
+        </scene>
+        <!--Masa-->
+        <scene sceneID="K1W-j0-dIE">
+            <objects>
+                <controller identifier="MassInterfaceController" title="Masa" id="ft3-r0-IM7" customClass="MassInterfaceController" customModule="PizzaWatch_Extension">
+                    <items>
+                        <table alignment="left" id="sgX-VC-tfd">
+                            <items>
+                                <tableRow identifier="MassTableRowController" id="0DP-Ic-cmu" customClass="MassTableRowController" customModule="PizzaWatch_Extension">
+                                    <group key="rootItem" width="1" alignment="left" id="H5t-iu-eR2">
+                                        <items>
+                                            <label alignment="left" verticalAlignment="center" text="Label" id="N0t-md-bVN"/>
+                                            <imageView alignment="right" verticalAlignment="center" image="tick_mark" id="zRd-BU-DTf"/>
+                                        </items>
+                                        <connections>
+                                            <segue destination="Pei-5F-dnv" kind="push" id="N0o-Be-Lcs"/>
+                                        </connections>
+                                    </group>
+                                    <connections>
+                                        <outlet property="imageMark" destination="zRd-BU-DTf" id="3I2-4L-lAc"/>
+                                        <outlet property="label" destination="N0t-md-bVN" id="qgC-pJ-225"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="massTable" destination="sgX-VC-tfd" id="6Lr-Lb-yno"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="329" y="111"/>
+        </scene>
+        <!--Queso-->
+        <scene sceneID="RaA-2L-b4r">
+            <objects>
+                <controller identifier="CheeseInterfaceController" title="Queso" id="Pei-5F-dnv" customClass="CheeseInterfaceController" customModule="PizzaWatch_Extension">
+                    <items>
+                        <table alignment="left" id="Jdm-mr-wVr">
+                            <items>
+                                <tableRow identifier="CheeseTableRowController" id="MUA-2D-Qor" customClass="CheeseTableRowController" customModule="PizzaWatch_Extension">
+                                    <group key="rootItem" width="1" alignment="left" id="GPb-tJ-6EQ">
+                                        <items>
+                                            <label alignment="left" verticalAlignment="center" text="Label" id="TAj-A8-cfk"/>
+                                            <imageView alignment="right" verticalAlignment="center" image="tick_mark" id="jVy-85-zML"/>
+                                        </items>
+                                        <connections>
+                                            <segue destination="y3f-uj-vg3" kind="push" id="PPt-IM-gs3"/>
+                                        </connections>
+                                    </group>
+                                    <connections>
+                                        <outlet property="imageMark" destination="jVy-85-zML" id="saV-5a-Es9"/>
+                                        <outlet property="label" destination="TAj-A8-cfk" id="3NH-RM-Hap"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="cheeseTable" destination="Jdm-mr-wVr" id="VDg-ob-2EL"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="604" y="111"/>
+        </scene>
+        <!--1 a 5 Ingredientes-->
+        <scene sceneID="y8D-8f-bmf">
+            <objects>
+                <controller identifier="IngredientInterfaceController" title="1 a 5 Ingredientes" id="y3f-uj-vg3" customClass="IngredientInterfaceController" customModule="PizzaWatch_Extension">
+                    <items>
+                        <table alignment="left" id="D7P-9D-reZ">
+                            <items>
+                                <tableRow identifier="IngredientTableRowController" id="wJy-RI-BAK" customClass="IngredientTableRowController" customModule="PizzaWatch_Extension">
+                                    <group key="rootItem" width="1" alignment="left" id="NAE-0Y-47Y">
+                                        <items>
+                                            <label alignment="left" verticalAlignment="center" text="Label" id="gZs-xA-Rmv"/>
+                                            <imageView alignment="right" verticalAlignment="center" image="tick_mark" id="srE-jS-swE"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="imageMark" destination="srE-jS-swE" id="MIp-IL-eeX"/>
+                                        <outlet property="label" destination="gZs-xA-Rmv" id="Bjs-it-eVt"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                        <button width="1" alignment="left" title="Siguiente" id="bOb-62-PRJ">
+                            <connections>
+                                <action selector="nextPressed" destination="y3f-uj-vg3" id="3vW-s3-GYP"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="ingredientsTable" destination="D7P-9D-reZ" id="Zug-8e-BsV"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="887" y="111"/>
+        </scene>
+        <!--Confirmar-->
+        <scene sceneID="WRy-No-7XI">
+            <objects>
+                <controller identifier="ConfirmationInterfaceController" title="Confirmar" id="4qM-8b-bOl" customClass="ConfirmationInterfaceController" customModule="PizzaWatch_Extension">
+                    <items>
+                        <group width="1" alignment="left" id="8mc-0J-9ZV">
+                            <items>
+                                <label alignment="left" text="Tamaño:" id="36i-Wg-ErO"/>
+                                <label alignment="left" text="Label" id="Qa9-iV-J4V"/>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="yFH-6B-mdu">
+                            <items>
+                                <label alignment="left" text="Masa:" id="zZY-nf-KsH"/>
+                                <label alignment="left" text="Label" id="r9p-be-0It"/>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="LdB-tH-UUr">
+                            <items>
+                                <label alignment="left" text="Queso:" id="BH7-fx-e51"/>
+                                <label alignment="left" text="Label" id="HGN-Mv-xjr"/>
+                            </items>
+                        </group>
+                        <group width="1" height="107" alignment="left" layout="vertical" id="VLd-b1-SGe">
+                            <items>
+                                <label alignment="left" text="Ingredientes:" id="pBM-H8-RcW"/>
+                                <label width="1" height="0.80000000000000004" alignment="left" text="Label" numberOfLines="0" id="JDW-2d-sxx"/>
+                            </items>
+                        </group>
+                        <button width="1" alignment="left" title="Preparar" id="fT6-T4-Inn">
+                            <connections>
+                                <action selector="confirm" destination="4qM-8b-bOl" id="Frp-m1-mXl"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="cheeseLabel" destination="HGN-Mv-xjr" id="FXP-fm-cJd"/>
+                        <outlet property="ingredientsLabel" destination="JDW-2d-sxx" id="vhh-K9-BIl"/>
+                        <outlet property="massLabel" destination="r9p-be-0It" id="Wf3-ZK-Ldo"/>
+                        <outlet property="sizeLabel" destination="Qa9-iV-J4V" id="vhQ-Jf-wYL"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1166" y="145"/>
+        </scene>
+    </scenes>
+</document>

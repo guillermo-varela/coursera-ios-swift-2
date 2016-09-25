@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF6673B81D97687100296118 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF6673B71D97687100296118 /* Assets.xcassets */; };
+		DF6673BF1D97687100296118 /* PizzaWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DF6673BE1D97687100296118 /* PizzaWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DF6673C41D97687100296118 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6673C31D97687100296118 /* InterfaceController.swift */; };
+		DF6673C61D97687100296118 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6673C51D97687100296118 /* ExtensionDelegate.swift */; };
+		DF6673C81D97687100296118 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF6673C71D97687100296118 /* Assets.xcassets */; };
+		DF6673CC1D97687100296118 /* PizzaWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DF6673B21D97687100296118 /* PizzaWatch.app */; };
+		DF6673D61D9770E100296118 /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8572C21D86688B00B48B20 /* Pizza.swift */; };
+		DF6673D81D9770EC00296118 /* Cheese.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFED95861D8DE157007D0BC2 /* Cheese.swift */; };
+		DF6673D91D9770EF00296118 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFED958A1D8DE77B007D0BC2 /* Ingredient.swift */; };
+		DF6673DA1D977C3D00296118 /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8572C01D8667F700B48B20 /* Size.swift */; };
+		DF6673DB1D977C4400296118 /* Mass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCF36E31D8D111A009590A3 /* Mass.swift */; };
+		DF6673DD1D977E2B00296118 /* SizeTableRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6673DC1D977E2B00296118 /* SizeTableRowController.swift */; };
+		DF6673DF1D9786E300296118 /* MassInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6673DE1D9786E300296118 /* MassInterfaceController.swift */; };
+		DF6673E31D978B4100296118 /* MassTableRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6673E21D978B4100296118 /* MassTableRowController.swift */; };
+		DF6673E51D978CB300296118 /* CheeseInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6673E41D978CB300296118 /* CheeseInterfaceController.swift */; };
+		DF6673E71D978D3700296118 /* CheeseTableRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6673E61D978D3700296118 /* CheeseTableRowController.swift */; };
+		DF6673EA1D978EF400296118 /* IngredientInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6673E91D978EF400296118 /* IngredientInterfaceController.swift */; };
+		DF6673EC1D978F0E00296118 /* IngredientTableRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6673EB1D978F0E00296118 /* IngredientTableRowController.swift */; };
+		DF6673EE1D979FA400296118 /* tick_mark.png in Resources */ = {isa = PBXBuildFile; fileRef = DF6673ED1D979FA400296118 /* tick_mark.png */; };
+		DF6673F01D97AC6200296118 /* ConfirmationInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6673EF1D97AC6200296118 /* ConfirmationInterfaceController.swift */; };
+		DF6673F31D97ADDC00296118 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF6673F11D97ADDC00296118 /* Interface.storyboard */; };
+		DF8572AC1D8663B900B48B20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8572AB1D8663B900B48B20 /* AppDelegate.swift */; };
+		DF8572B11D8663B900B48B20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF8572AF1D8663B900B48B20 /* Main.storyboard */; };
+		DF8572B31D8663B900B48B20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF8572B21D8663B900B48B20 /* Assets.xcassets */; };
+		DF8572B61D8663B900B48B20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF8572B41D8663B900B48B20 /* LaunchScreen.storyboard */; };
+		DF8572BE1D8663EE00B48B20 /* SizeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8572BD1D8663EE00B48B20 /* SizeTableViewController.swift */; };
+		DF8572C11D8667F700B48B20 /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8572C01D8667F700B48B20 /* Size.swift */; };
+		DF8572C31D86688B00B48B20 /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8572C21D86688B00B48B20 /* Pizza.swift */; };
+		DF8572C51D86758D00B48B20 /* MassTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8572C41D86758D00B48B20 /* MassTableViewController.swift */; };
+		DFCF36E41D8D111A009590A3 /* Mass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCF36E31D8D111A009590A3 /* Mass.swift */; };
+		DFED95871D8DE157007D0BC2 /* Cheese.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFED95861D8DE157007D0BC2 /* Cheese.swift */; };
+		DFED95891D8DE186007D0BC2 /* CheeseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFED95881D8DE186007D0BC2 /* CheeseTableViewController.swift */; };
+		DFED958B1D8DE77B007D0BC2 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFED958A1D8DE77B007D0BC2 /* Ingredient.swift */; };
+		DFED958D1D8DE899007D0BC2 /* IngredientTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFED958C1D8DE899007D0BC2 /* IngredientTableViewController.swift */; };
+		DFED958F1D8E0FA5007D0BC2 /* ConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFED958E1D8E0FA5007D0BC2 /* ConfirmationViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF6673C01D97687100296118 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF8572A01D8663B900B48B20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF6673BD1D97687100296118;
+			remoteInfo = "PizzaWatch Extension";
+		};
+		DF6673CA1D97687100296118 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF8572A01D8663B900B48B20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF6673B11D97687100296118;
+			remoteInfo = PizzaWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DF6673D01D97687100296118 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DF6673BF1D97687100296118 /* PizzaWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6673D41D97687100296118 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				DF6673CC1D97687100296118 /* PizzaWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DF6673B21D97687100296118 /* PizzaWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzaWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF6673B71D97687100296118 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF6673B91D97687100296118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF6673BE1D97687100296118 /* PizzaWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PizzaWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF6673C31D97687100296118 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		DF6673C51D97687100296118 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		DF6673C71D97687100296118 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF6673C91D97687100296118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF6673DC1D977E2B00296118 /* SizeTableRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizeTableRowController.swift; sourceTree = "<group>"; };
+		DF6673DE1D9786E300296118 /* MassInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MassInterfaceController.swift; sourceTree = "<group>"; };
+		DF6673E21D978B4100296118 /* MassTableRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MassTableRowController.swift; sourceTree = "<group>"; };
+		DF6673E41D978CB300296118 /* CheeseInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheeseInterfaceController.swift; sourceTree = "<group>"; };
+		DF6673E61D978D3700296118 /* CheeseTableRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheeseTableRowController.swift; sourceTree = "<group>"; };
+		DF6673E91D978EF400296118 /* IngredientInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientInterfaceController.swift; sourceTree = "<group>"; };
+		DF6673EB1D978F0E00296118 /* IngredientTableRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientTableRowController.swift; sourceTree = "<group>"; };
+		DF6673ED1D979FA400296118 /* tick_mark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tick_mark.png; sourceTree = "<group>"; };
+		DF6673EF1D97AC6200296118 /* ConfirmationInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmationInterfaceController.swift; sourceTree = "<group>"; };
+		DF6673F21D97ADDC00296118 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		DF8572A81D8663B900B48B20 /* Pizzas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pizzas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF8572AB1D8663B900B48B20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF8572B01D8663B900B48B20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF8572B21D8663B900B48B20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF8572B51D8663B900B48B20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF8572B71D8663B900B48B20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF8572BD1D8663EE00B48B20 /* SizeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizeTableViewController.swift; sourceTree = "<group>"; };
+		DF8572C01D8667F700B48B20 /* Size.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Size.swift; sourceTree = "<group>"; };
+		DF8572C21D86688B00B48B20 /* Pizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
+		DF8572C41D86758D00B48B20 /* MassTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MassTableViewController.swift; sourceTree = "<group>"; };
+		DFCF36E31D8D111A009590A3 /* Mass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mass.swift; sourceTree = "<group>"; };
+		DFED95861D8DE157007D0BC2 /* Cheese.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cheese.swift; sourceTree = "<group>"; };
+		DFED95881D8DE186007D0BC2 /* CheeseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheeseTableViewController.swift; sourceTree = "<group>"; };
+		DFED958A1D8DE77B007D0BC2 /* Ingredient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		DFED958C1D8DE899007D0BC2 /* IngredientTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientTableViewController.swift; sourceTree = "<group>"; };
+		DFED958E1D8E0FA5007D0BC2 /* ConfirmationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmationViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF6673BB1D97687100296118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF8572A51D8663B900B48B20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF6673B31D97687100296118 /* PizzaWatch */ = {
+			isa = PBXGroup;
+			children = (
+				DF6673F11D97ADDC00296118 /* Interface.storyboard */,
+				DF6673B71D97687100296118 /* Assets.xcassets */,
+				DF6673B91D97687100296118 /* Info.plist */,
+				DF6673ED1D979FA400296118 /* tick_mark.png */,
+			);
+			path = PizzaWatch;
+			sourceTree = "<group>";
+		};
+		DF6673C21D97687100296118 /* PizzaWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DF6673E81D978E8D00296118 /* TableRowControllers */,
+				DF6673C31D97687100296118 /* InterfaceController.swift */,
+				DF6673C51D97687100296118 /* ExtensionDelegate.swift */,
+				DF6673C71D97687100296118 /* Assets.xcassets */,
+				DF6673C91D97687100296118 /* Info.plist */,
+				DF6673DE1D9786E300296118 /* MassInterfaceController.swift */,
+				DF6673E41D978CB300296118 /* CheeseInterfaceController.swift */,
+				DF6673E91D978EF400296118 /* IngredientInterfaceController.swift */,
+				DF6673EF1D97AC6200296118 /* ConfirmationInterfaceController.swift */,
+			);
+			path = "PizzaWatch Extension";
+			sourceTree = "<group>";
+		};
+		DF6673E81D978E8D00296118 /* TableRowControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DF6673DC1D977E2B00296118 /* SizeTableRowController.swift */,
+				DF6673E21D978B4100296118 /* MassTableRowController.swift */,
+				DF6673E61D978D3700296118 /* CheeseTableRowController.swift */,
+				DF6673EB1D978F0E00296118 /* IngredientTableRowController.swift */,
+			);
+			name = TableRowControllers;
+			sourceTree = "<group>";
+		};
+		DF85729F1D8663B900B48B20 = {
+			isa = PBXGroup;
+			children = (
+				DF8572AA1D8663B900B48B20 /* Pizzas */,
+				DF6673B31D97687100296118 /* PizzaWatch */,
+				DF6673C21D97687100296118 /* PizzaWatch Extension */,
+				DF8572A91D8663B900B48B20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF8572A91D8663B900B48B20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF8572A81D8663B900B48B20 /* Pizzas.app */,
+				DF6673B21D97687100296118 /* PizzaWatch.app */,
+				DF6673BE1D97687100296118 /* PizzaWatch Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF8572AA1D8663B900B48B20 /* Pizzas */ = {
+			isa = PBXGroup;
+			children = (
+				DF8572BF1D8667C700B48B20 /* Model */,
+				DF8572AB1D8663B900B48B20 /* AppDelegate.swift */,
+				DF8572AF1D8663B900B48B20 /* Main.storyboard */,
+				DF8572B21D8663B900B48B20 /* Assets.xcassets */,
+				DF8572B41D8663B900B48B20 /* LaunchScreen.storyboard */,
+				DF8572B71D8663B900B48B20 /* Info.plist */,
+				DF8572BD1D8663EE00B48B20 /* SizeTableViewController.swift */,
+				DF8572C41D86758D00B48B20 /* MassTableViewController.swift */,
+				DFED95881D8DE186007D0BC2 /* CheeseTableViewController.swift */,
+				DFED958C1D8DE899007D0BC2 /* IngredientTableViewController.swift */,
+				DFED958E1D8E0FA5007D0BC2 /* ConfirmationViewController.swift */,
+			);
+			path = Pizzas;
+			sourceTree = "<group>";
+		};
+		DF8572BF1D8667C700B48B20 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DF8572C01D8667F700B48B20 /* Size.swift */,
+				DF8572C21D86688B00B48B20 /* Pizza.swift */,
+				DFCF36E31D8D111A009590A3 /* Mass.swift */,
+				DFED95861D8DE157007D0BC2 /* Cheese.swift */,
+				DFED958A1D8DE77B007D0BC2 /* Ingredient.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF6673B11D97687100296118 /* PizzaWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF6673D11D97687100296118 /* Build configuration list for PBXNativeTarget "PizzaWatch" */;
+			buildPhases = (
+				DF6673B01D97687100296118 /* Resources */,
+				DF6673D01D97687100296118 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF6673C11D97687100296118 /* PBXTargetDependency */,
+			);
+			name = PizzaWatch;
+			productName = PizzaWatch;
+			productReference = DF6673B21D97687100296118 /* PizzaWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		DF6673BD1D97687100296118 /* PizzaWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF6673CD1D97687100296118 /* Build configuration list for PBXNativeTarget "PizzaWatch Extension" */;
+			buildPhases = (
+				DF6673BA1D97687100296118 /* Sources */,
+				DF6673BB1D97687100296118 /* Frameworks */,
+				DF6673BC1D97687100296118 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PizzaWatch Extension";
+			productName = "PizzaWatch Extension";
+			productReference = DF6673BE1D97687100296118 /* PizzaWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		DF8572A71D8663B900B48B20 /* Pizzas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF8572BA1D8663B900B48B20 /* Build configuration list for PBXNativeTarget "Pizzas" */;
+			buildPhases = (
+				DF8572A41D8663B900B48B20 /* Sources */,
+				DF8572A51D8663B900B48B20 /* Frameworks */,
+				DF8572A61D8663B900B48B20 /* Resources */,
+				DF6673D41D97687100296118 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF6673CB1D97687100296118 /* PBXTargetDependency */,
+			);
+			name = Pizzas;
+			productName = Pizzas;
+			productReference = DF8572A81D8663B900B48B20 /* Pizzas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF8572A01D8663B900B48B20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Guillermo Varela";
+				TargetAttributes = {
+					DF6673B11D97687100296118 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					DF6673BD1D97687100296118 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					DF8572A71D8663B900B48B20 = {
+						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = DF8572A31D8663B900B48B20 /* Build configuration list for PBXProject "Pizzas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF85729F1D8663B900B48B20;
+			productRefGroup = DF8572A91D8663B900B48B20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF8572A71D8663B900B48B20 /* Pizzas */,
+				DF6673B11D97687100296118 /* PizzaWatch */,
+				DF6673BD1D97687100296118 /* PizzaWatch Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF6673B01D97687100296118 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF6673B81D97687100296118 /* Assets.xcassets in Resources */,
+				DF6673F31D97ADDC00296118 /* Interface.storyboard in Resources */,
+				DF6673EE1D979FA400296118 /* tick_mark.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6673BC1D97687100296118 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF6673C81D97687100296118 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF8572A61D8663B900B48B20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF8572B61D8663B900B48B20 /* LaunchScreen.storyboard in Resources */,
+				DF8572B31D8663B900B48B20 /* Assets.xcassets in Resources */,
+				DF8572B11D8663B900B48B20 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF6673BA1D97687100296118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF6673D61D9770E100296118 /* Pizza.swift in Sources */,
+				DF6673F01D97AC6200296118 /* ConfirmationInterfaceController.swift in Sources */,
+				DF6673EA1D978EF400296118 /* IngredientInterfaceController.swift in Sources */,
+				DF6673E31D978B4100296118 /* MassTableRowController.swift in Sources */,
+				DF6673DA1D977C3D00296118 /* Size.swift in Sources */,
+				DF6673DF1D9786E300296118 /* MassInterfaceController.swift in Sources */,
+				DF6673C61D97687100296118 /* ExtensionDelegate.swift in Sources */,
+				DF6673E51D978CB300296118 /* CheeseInterfaceController.swift in Sources */,
+				DF6673D91D9770EF00296118 /* Ingredient.swift in Sources */,
+				DF6673D81D9770EC00296118 /* Cheese.swift in Sources */,
+				DF6673C41D97687100296118 /* InterfaceController.swift in Sources */,
+				DF6673EC1D978F0E00296118 /* IngredientTableRowController.swift in Sources */,
+				DF6673DB1D977C4400296118 /* Mass.swift in Sources */,
+				DF6673E71D978D3700296118 /* CheeseTableRowController.swift in Sources */,
+				DF6673DD1D977E2B00296118 /* SizeTableRowController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF8572A41D8663B900B48B20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF8572C31D86688B00B48B20 /* Pizza.swift in Sources */,
+				DF8572BE1D8663EE00B48B20 /* SizeTableViewController.swift in Sources */,
+				DFED958B1D8DE77B007D0BC2 /* Ingredient.swift in Sources */,
+				DFED95891D8DE186007D0BC2 /* CheeseTableViewController.swift in Sources */,
+				DFED958F1D8E0FA5007D0BC2 /* ConfirmationViewController.swift in Sources */,
+				DF8572C51D86758D00B48B20 /* MassTableViewController.swift in Sources */,
+				DFED95871D8DE157007D0BC2 /* Cheese.swift in Sources */,
+				DFED958D1D8DE899007D0BC2 /* IngredientTableViewController.swift in Sources */,
+				DF8572C11D8667F700B48B20 /* Size.swift in Sources */,
+				DF8572AC1D8663B900B48B20 /* AppDelegate.swift in Sources */,
+				DFCF36E41D8D111A009590A3 /* Mass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF6673C11D97687100296118 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF6673BD1D97687100296118 /* PizzaWatch Extension */;
+			targetProxy = DF6673C01D97687100296118 /* PBXContainerItemProxy */;
+		};
+		DF6673CB1D97687100296118 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF6673B11D97687100296118 /* PizzaWatch */;
+			targetProxy = DF6673CA1D97687100296118 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF6673F11D97ADDC00296118 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF6673F21D97ADDC00296118 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		DF8572AF1D8663B900B48B20 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF8572B01D8663B900B48B20 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF8572B41D8663B900B48B20 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF8572B51D8663B900B48B20 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF6673CE1D97687100296118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				INFOPLIST_FILE = "PizzaWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blogspot.nombre-temp.Pizzas.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		DF6673CF1D97687100296118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				INFOPLIST_FILE = "PizzaWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blogspot.nombre-temp.Pizzas.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+		DF6673D21D97687100296118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				IBSC_MODULE = PizzaWatch_Extension;
+				INFOPLIST_FILE = PizzaWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blogspot.nombre-temp.Pizzas.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		DF6673D31D97687100296118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				IBSC_MODULE = PizzaWatch_Extension;
+				INFOPLIST_FILE = PizzaWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blogspot.nombre-temp.Pizzas.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+		DF8572B81D8663B900B48B20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF8572B91D8663B900B48B20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF8572BB1D8663B900B48B20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pizzas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blogspot.nombre-temp.Pizzas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DF8572BC1D8663B900B48B20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pizzas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.blogspot.nombre-temp.Pizzas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF6673CD1D97687100296118 /* Build configuration list for PBXNativeTarget "PizzaWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF6673CE1D97687100296118 /* Debug */,
+				DF6673CF1D97687100296118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DF6673D11D97687100296118 /* Build configuration list for PBXNativeTarget "PizzaWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF6673D21D97687100296118 /* Debug */,
+				DF6673D31D97687100296118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DF8572A31D8663B900B48B20 /* Build configuration list for PBXProject "Pizzas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF8572B81D8663B900B48B20 /* Debug */,
+				DF8572B91D8663B900B48B20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF8572BA1D8663B900B48B20 /* Build configuration list for PBXNativeTarget "Pizzas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF8572BB1D8663B900B48B20 /* Debug */,
+				DF8572BC1D8663B900B48B20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF8572A01D8663B900B48B20 /* Project object */;
+}
